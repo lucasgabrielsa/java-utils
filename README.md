@@ -23,3 +23,13 @@ Logo, são válidos:
 3
 4 interface Fourth {}
 ```
+# Docker 
+
+## Rodando docker without sudo
+
+Just open terminal and type this command
+
+```shell 
+sudo usermod -aG docker your-user
+sudo chmod 666 /var/run/docker.sock
+``` 
